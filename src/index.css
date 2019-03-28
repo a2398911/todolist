@@ -1,5 +1,116 @@
+.container {
+  border: 1px solid #ddd;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 p {
   display: inline-block;
   margin-right: 10px;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  color: #a39e9e;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: #fd5f00;
+  border: none;
+  border-radius: 12.5px;
+  padding: 5px 8px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-left: 5px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover, button:active {
+  background-color: #e45500;
+}
+
+.dodo-list {
+  color: #393E46;
+  min-height: 50px;
+}
+
+.dodo-list li {
+  margin-bottom: 5px;
+}
+
+.dodo-list p {
+  margin: 0;
+  cursor: pointer;
+}
+
+.dodo-list span {
+  margin-left: 5px;
+  font-size: 8px;
+  background-color: #E8222D;
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dodo-list span:hover, .dodo-list span:active {
+  background-color: #da1722;
+}
+
+.footer {
+  color: #a39e9e;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
+}
+
+.footer span, .footer a {
+  margin: 0 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.footer span {
+  color: #fff;
+  background-color: #ffb549;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #a39e9e;
+}
+
+#app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
 }
 /*# sourceMappingURL=index.css.map */
